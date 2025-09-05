@@ -13,30 +13,6 @@
       "name": "dev",
       "command": "npm run dev",
       "runAtStart": true
-    },
-    "build": {
-      "name": "build",
-      "command": "npm run build"
-    },
-    "preview": {
-      "name": "preview",
-      "command": "npm run preview"
-    },
-    "build-only": {
-      "name": "build-only",
-      "command": "npm run build-only"
-    },
-    "type-check": {
-      "name": "type-check",
-      "command": "npm run type-check"
-    },
-    "lint": {
-      "name": "lint",
-      "command": "npm run lint"
-    },
-    "format": {
-      "name": "format",
-      "command": "npm run format"
     }
   }
 }
