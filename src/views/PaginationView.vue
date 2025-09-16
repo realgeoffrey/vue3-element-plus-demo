@@ -5,8 +5,3 @@ import Pagination from '@/components/pagination/index.vue'
 <template>
   <Pagination />
 </template>
-
-<style scoped>
-a {
-}
-</style>

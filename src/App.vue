@@ -4,13 +4,12 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <div>
-      路由切换：
-        <RouterLink to="/pagination">Pagination Demo</RouterLink>
-        <br>
+    路由切换：
+    <RouterLink to="/pagination">Pagination Demo</RouterLink>
+    |
+    <RouterLink to="/jsx">Jsx Demo</RouterLink>
   </div>
   <hr>
 
   <RouterView />
 </template>
-
-<style scoped></style>
