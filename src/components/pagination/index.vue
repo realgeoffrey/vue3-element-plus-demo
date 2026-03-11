@@ -67,7 +67,7 @@ const search = async (current = 1) => {
       pageSize: apiData.pagination.pageSize,
     })
     if (res?.pagination && res?.list) {
-      Object.assign(apiData.pagination, res.pagination)
+      Object.assign(apiData.pagination, res.pagination) // 一般响应只会更新total，不会更新current和pageSize
       apiData.list = res.list
     } else {
       apiData.list = []
