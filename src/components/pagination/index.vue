@@ -86,5 +86,6 @@ const resetPaginationCurrentAndSearch = () => {
   })
 }
 
+// 初始化时触发一次搜索
 resetPaginationCurrentAndSearch()
 </script>
