@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Jsx from '@/components/jsx/JsxFather.vue'
 </script>
 
