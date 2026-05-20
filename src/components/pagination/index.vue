@@ -17,7 +17,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, watch, reactive, nextTick } from 'vue'
 import SearchForm from './SearchForm.vue'
 import TheTable from './TheTable.vue'
@@ -38,7 +38,7 @@ const apiData = reactive({
     pageSize: 10,
     total: 0,
   },
-  list: [],
+  list: [] as Array<Record<number, number>>,
 })
 
 // 手动翻页 或 页数变化导致翻页

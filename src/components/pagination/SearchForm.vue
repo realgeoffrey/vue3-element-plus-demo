@@ -33,10 +33,11 @@
   </el-form>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, toRaw } from 'vue'
+import type { FormInstance } from 'element-plus'
 const emit = defineEmits(['searchTheForm'])
-const formRef = ref(null)
+const formRef = ref<FormInstance>()
 const formData = ref({
   propA: '',
   propB: [],

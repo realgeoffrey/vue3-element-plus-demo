@@ -7,8 +7,9 @@
   </el-table>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { watch, ref } from 'vue'
+import type { TableInstance } from 'element-plus'
 const props = defineProps({
   tableData: {
     type: Array,
@@ -22,7 +23,7 @@ const props = defineProps({
     ],
   },
 })
-const tableRef = ref(null)
+const tableRef = ref<TableInstance>()
 watch(
   () => props.tableData,
   () => {

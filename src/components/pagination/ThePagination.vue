@@ -9,7 +9,7 @@
     />
 </template>
 
-<script setup>
+<script setup lang="ts">
 const emit = defineEmits(['update:currentPage', 'update:pageSize'])
 
 defineProps({

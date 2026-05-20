@@ -1,4 +1,5 @@
-<script lang="jsx">
+<script lang="tsx">
+// @ts-nocheck
 import JsxSon from './JsxSon.vue'
 export default {
   components: {
